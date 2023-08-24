@@ -1,0 +1,48 @@
+.container-targeta{
+    display: flex;
+    color: #E7E7EB;
+    background-color: #1E213A;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-targeta img{
+    height: 40px;
+    width: 40px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.grados-minimos{
+    color: #A09FB1;
+
+}
+
+.grados-maximos-C{
+    display: none;
+}
+
+.grados-minimos-C{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .container-targeta{
+        font-size: 9px;
+    }}
+
+    @media (max-width: 650px) {
+        .container-targeta{
+            font-size: 6px;
+        }}
